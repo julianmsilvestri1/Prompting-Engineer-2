@@ -19,7 +19,7 @@ they do not prove prompt quality or guarantee security.
 Run the demo:
 
 ```bash
-python context_engineering_auditor.py
+python3 context_engineering_auditor.py
 ```
 
 Or import the auditor:
@@ -60,7 +60,7 @@ result.
 Run the test suite with the standard library:
 
 ```bash
-python -m unittest
+python3 -m unittest discover -s tests
 ```
 
 The project has no runtime third-party dependencies.
