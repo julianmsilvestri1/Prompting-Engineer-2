@@ -1,0 +1,11 @@
+[project]
+name = "prompting-engineer-2"
+version = "0.1.0"
+description = "Dependency-free prompt linting heuristics for context engineering."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
